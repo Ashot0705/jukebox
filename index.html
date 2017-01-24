@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">	
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Jukebox</title>
 </head>
@@ -9,25 +10,48 @@
 	<div class="container">
 		<div class="box">
 			<h1>hello</h1>
-			<audio src="boa-noite.mp3" type="audio/mp3"></audio>
+
+			<audio class ="audio" src="" type="audio/mp3">
+			</audio>
+			<p class="songInfo">
 				
-				<div class="playButton">
-					Play
-				</div>
+			</p>
+
+			<div class="button-controlls">
 				
-				<div class="pauseButton">
-					Pause
-				</div>
-				
-				<div class="stopButton">
-				Stop
-				</div>
-				<div id="mduration"></div>
+				<button type="button" class="btn btn-default playButton">
+					<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+				</button>
+
+
+				<button type="button" class="btn btn-default pauseButton">
+					<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+				</button>
+
+
+				<button type="button" class="btn btn-default stopButton">
+					<span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+				</button>
+
+				<button type="button" class="btn btn-default prevButton">
+					<span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+				</button>
+
+				<button type="button" class="btn btn-default nextButton">
+					<span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+				</button>
+			</div>
+
+			<div class="music-info"></div>
+
+			<input type="text" name="music-title" placeholder="example" class="music-title">
+
+			<button class="load-btn" value="submit"> Search</button>
 		</div>
 
 
-
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
 		<script type="text/javascript" src="js.js"></script>
 	</body>
 	</html>

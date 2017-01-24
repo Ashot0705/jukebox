@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Jukebox</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="box">
+			<h1>hello</h1>
+
+			<audio id ="audio">
+				<source src="boa-noite.mp3" type="audio/mp3">
+
+			 </audio>
+				
+				<div class="playButton">
+					<button type="button" class="btn btn-default playButton">
+	  				<span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+					</button>
+				</div>
+				
+				<div class="pauseButton">
+					<button type="button" class="btn btn-default pauseButton">
+	  				<span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+					</button>
+				</div>
+				
+				<div class="stopButton">
+					<button type="button" class="btn btn-default stopButton">
+	  				<span class="glyphicon glyphicon-stop" aria-hidden="true"></span>
+					</button>
+				</div>
+
+				<div class="nextButton">
+					<button type="button" class="btn btn-default stopButton">
+	  				<span class="glyphicon glyphicon-forward" aria-hidden="true"></span>
+					</button>
+				</div>
+				
+				<div class="prevButton">
+					<button type="button" class="btn btn-default stopButton">
+	  				<span class="glyphicon glyphicon-backward" aria-hidden="true"></span>
+					</button>
+				</div>
+				<div id="mduration"></div>
+		</div>
+
+		<div class="music-title">
+			<input type="text" name="music-title" placeholder="example">
+		</div>
+
+		<div class="submit-btn">
+			<button class="submit-button" value="submit"> Search</button>
+		</div>	
+
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js.js"></script>
+		<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+	</body>
+	</html>

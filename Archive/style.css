@@ -1,0 +1,24 @@
+.playButton {
+	width: 60px;
+	height: 40px;
+	background-color: #000000;
+	color: #4bff19;
+}
+.pauseButton {
+	width: 60px;
+	height: 40px;
+	background-color: #000000;
+	color: #4bff19;
+}
+.stopButton {
+	width: 60px;
+	height: 40px;
+	background-color: #000000;
+	color: #4bff19;
+}
+#mduration {
+	width: 60px;
+	height: 40px;
+	background-color: #000000;
+	color: #4bff19;
+}

@@ -1,24 +1,39 @@
-.playButton {
+.playButton, .pauseButton, .stopButton, .prevButton, .nextButton {
 	width: 60px;
 	height: 40px;
-	background-color: yellow;
-	color: blue;
+	background-color: #000000;
+	color: #4bff19;
 }
-.pauseButton {
+.button-controlls {
+	display: inline-block;
+	margin: 20px;
+}
+p {
+	font-size: 20px;
+	width: 200px;
+	text-align: right;
+	margin: 30px;
+	padding: 10px;
+}
+/*.pauseButton {
 	width: 60px;
 	height: 40px;
-	background-color: orange;
-	color: blue;
+	background-color: #000000;
+	color: #4bff19;
 }
 .stopButton {
 	width: 60px;
 	height: 40px;
-	background-color: red;
-	color: white;
+	background-color: #000000;
+	color: #4bff19;
 }
 #mduration {
 	width: 60px;
 	height: 40px;
-	background-color: grey;
-	color: red;
+	background-color: #000000;
+	color: #4bff19;
 }
+.btn, .btn-default {
+	display: inline;
+	float: left;
+}*/
